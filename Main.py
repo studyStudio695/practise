@@ -17,7 +17,10 @@ if m2.CheckAcc(AccYN):
     passcode = input("PASS >>")
     m2.login(Id,password)
 elif m2.CheckAcc(AccYN) == False:
-    input()
+    m1.speak('PROGRAM, IS GOING TO OFF')
+    m1.speak('Closing')
+    m1.speak('Shutdown Complete')
+    exit()
   
   
   
